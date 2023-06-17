@@ -1,4 +1,2 @@
-var firstName = "234.234"
-var number =  "number"
-console.log("firstName" typeof(firstName));
-console.log("number" typeof(number))
+var num1 = 123
+console.log("num1",typeof(num1));
