@@ -42,19 +42,19 @@
 // // console.log ("invalid input")
 // // }
 
-// let variable =  prompt("Please enter a value");
+let variable =  prompt("Please enter a value");
 
-// if(isNaN(variable)){
-//     console.log("Given variale is  not an integer")
+if(isNaN(variable)){
+    console.log("Given variale is  not an integer")
+}
+else {
+    console.log("Given variable is an integer")
 // }
-// else {
-//     console.log("Given variable is an integer")
-// }
-var n = a
-if(a==A)
+var n = 'a'
+if(isalpha(n))
 {
-console.log("it is not an alphabet")
+console.log("it is an alphabet")
 }
 else{
-    console.log("it is an alphabet")
+    console.log("it is not an alphabet")
 }
