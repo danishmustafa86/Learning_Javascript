@@ -29,9 +29,9 @@
 // // console.log("num is equal to zer
 // var n = 5
 // if(n%2==0)
-// console.log("n is eveen number")
+// console.log("n is number")
 // else
-// console.log("n is oddd number")
+// console.log("n is oddd r")
 var n = 55
 if(n/5&&n/11)
 {
