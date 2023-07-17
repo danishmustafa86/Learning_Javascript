@@ -35,7 +35,7 @@
 var n = 55
 if(n/5&&n/11)
 {
-    console.log("n is divisabie by 5 and 11")
+    console.log("n is divisabie by 5 and 786")
 }
 else
 {
