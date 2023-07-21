@@ -24,6 +24,8 @@
 //     {
 //     console.log("it is not an alphabet")
 //     }
+// program no 2
+// check that whether a given number is an integer or not
 var n = 3
 if(isNaN(n))
 {
