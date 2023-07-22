@@ -1,202 +1,97 @@
-// Assignment 1 Solved by ME in 2021
-//  console.log("________ASSIGNMENT_01______");
+// // 1. Write a js program to print day of week name using switch case.
 
-// console.log("________QUESTION_NO_1______");
+// // 2. Write a js program print total number of days in a month using switch case.
 
-// console.log(false||(true&&false));
+// // 3. Write a js program to check whether an alphabet is vowel or consonant using switch case.
 
-// console.log(true||(1+2));
+// // 4. Write a js program to find maximum between two numbers using switch case.
 
-// console.log((1+2)||true);
+// // 5. Write a js program to check whether a number is even or odd using switch case.
 
-// console.log(true&&(1+2));
+// // 6. Write a js program to check whether a number is positive, negative or zero using switch case.
 
-// console.log(false&&(1+2));
+// // 7. Write a js program to find roots of a quadratic equation using switch case.
 
-// console.log((1+2)&&true);
+// // 8. Write a js program to create Simple Calculator using switch case.
 
-// console.log((32*4)>=129);
+// // 9. Write a js program to input any character and check whether it is alphabet, digit or special character.
 
-// console.log(false!==!true);
+// // 10. Write a js program to check whether a character is uppercase or lowercase alphabet.
 
-// console.log(true===4);
+// // 11. Write a js program to input week number and print week day.
 
-// console.log(false===(847==='847'));
+// // 12. Write a js program to input month number and print number of days in that month.
 
-// console.log(false===(847=='847'));
+// // 13. Write a js program to count total number of notes in given amount.
 
-// console.log(!true||(!(100/5)===20)||((328/4)===82))||false;
+// // 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
 
+// // 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
 
+// // 16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
 
-// console.log("________QUESTION_NO_2______");
+// // 17. Write a js program to find all roots of a quadratic equation.
 
-// console.log("Add a validation check to ensure that, a number is an integer. If it isn't, then issue an error message and console it.");
+// // 18. Write a js program to calculate profit or loss.
 
-// console.log("_______________________________");
+// // 19. Write a js program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
 
-// var nam=56;
+// // Percentage >= 90% : Grade A
 
-// console.log(nam);
+// // Percentage >= 80% : Grade B
 
-// nam=Number.isInteger(nam);
+// // Percentage >= 70% : Grade C
 
-// if(nam==false){
+// // Percentage >= 60% : Grade D
 
-//     console.log("No,number is not integer");
+// // Percentage >= 40% : Grade E
 
-// }else{
+// // Percentage < 40% : Grade F
 
-//     console.log("yes,number is integer");
+// // 20. Write a js program to input basic salary of an employee and calculate its Gross salary according to following:
 
-// }
+// // Basic Salary <= 10000 : HRA = 20%, DA = 80%
 
+// // Basic Salary <= 20000 : HRA = 25%, DA = 90%
 
+// // Basic Salary > 20000 : HRA = 30%, DA = 95%
 
-// console.log("________QUESTION_NO_3______");
+// // 21. Write a js program to input electricity unit charges and calculate total electricity bill according to the given condition:
 
-// console.log("Write a js program to find maximum between two numbers.");
+// // For first 50 units Rs. 0.50/unit
 
-// console.log("_______________________________");
+// // For next 100 units Rs. 0.75/unit
 
-// var num1=56,num2=57;
+// // For next 100 units Rs. 1.20/unit
 
-// console.log("number one:",num1);
+// // For unit above 250 Rs. 1.50/unit
 
-// console.log("number two:",num2);
+// // An additional surcharge of 20% is added to the bill
 
-// if(num1>num2){
+// // Assignment 2
 
-//     console.log(num1,"is greater than ",num2);
-
-// }else if(num1<num2){
-
-//     console.log(num2,"is greater than" ,num1);
-
-// }else {
-
-//     console.log(num1,"is equal to ",num2);
-
-// }
-
-
-
-// console.log("________QUESTION_NO_4______");
-
-// console.log(" Write a js program to find maximum between three numbers.");
-
-// console.log("_______________________________");
-
-// var num1=56,num2=57,num3=45;
-
-// console.log("number one:",num1);
-
-// console.log("number two:",num2);
-
-// console.log("number three:",num3)
-
-// if(num1>=num2&&num1>=num3){
-
-//     console.log(num1,"is greater than ",num2,"and",num3);
-
-// }else if(num2>=num1&&num2>=num3){
-
-//     console.log(num2,"is greater than" ,num1,"and",num3);
-
-// }else if(num3>=num1&&num3>=num2) {
-
-//     console.log(num3,"is greater than ",num1,"and",num2);
-
-// }
-
-
-
-// console.log("________QUESTION_NO_5______");
-
-// console.log("Write a js program to check whether a number is negative, positive or zero.");
-
-// console.log("_______________________________");
-
-// var num=-56;
-
-// console.log("number is:",num);
-
-// if(num<0){
-
-//     console.log(num,"is negative");
-
-// }else if(num>0){
-
-//     console.log(num,"is positive");
-
-// }else{
-
-//     console.log(num,"is zero");
-
-// }
-
-
-
-// console.log("________QUESTION_NO_6______");
-
-// console.log("Write a js program to check whether a number is divisible by 5 and 11 or not.");
-
-// console.log("_______________________________");
-
-// var num=3945;
-
-// console.log("number is:",num);
-
-// if(num/5==0&&num/11==0){
-
-//     console.log(num,"is divisible by 5 and 11");
-
-// }else{
-
-//     console.log(num,"is not divisible by 5 and 11");
-
-// }
-
-
-
-// console.log("________QUESTION_NO_7______");
-
-// console.log("Write a js program to check whether a number is even or odd.");
-
-// console.log("_______________________________");
-
-// var num=3945;
-
-// console.log("number is:",num);
-
-// if(num/2==0){
-
-//     console.log(num,"is even");
-
-// }else{
-
-//     console.log(num,"is odd");
-
-// }
-
-
-
-// console.log("________QUESTION_NO_8______");
-
-// console.log("Write a js program to check whether character is an alphabet or not");
-
-// console.log("_______________________________");
-
-var ch='M';
-
-console.log("character is:",ch);
-
-if(ch=='a'||ch=='b'||ch=='c'||ch=='d'||ch=='e'|| ch=='f'||ch=='g'||ch=='h'||ch=='i'||ch=='j'||ch=='k'||ch=='l'||ch=='m'||ch=='n'||ch=='o'||ch=='p'||ch=='q'||ch=='r'||ch=='s'||ch=='t'||ch=='u'||ch=='v'||ch=='w'||ch=='x'||ch=='y'||ch=='z'||ch=='A'||ch=='B'||ch=='C'||ch=='D'||ch=='E'||ch=='F'||ch=='G'||ch=='H'||ch=='I'||ch=='J'||ch=='K'||ch=='L'||ch=='M'||ch=='N'||ch=='O'||ch=='P'||ch=='Q'||ch=='R'||ch=='S'||ch=='T'||ch=='U'||ch=='V'||ch=='W'||ch=='X'||ch=='Y'||ch=='Z'){
-
-    console.log(ch,"is Aphabet of English");
-
-}else{
-
-    console.log(ch,"is not Aphabet of English");
-
+// write a program to print day of week name using switch case
+var day = "monday"
+switch (day) {
+  case day == "monday":
+    console.log("monday day")
+    break;
+  case day == "tuesday":
+    console.log("tuesday day")
+    break;
+  case day == "wednesday":
+    console.log("wedesday day")
+    break;
+  case day == "thursday":
+    console.log("thursday day")
+    break;
+  case day == "friday":
+    console.log("friday day")
+    break;
+  case day == "sathurday":
+    console.log("sathurday day")
+    break;
+  case day == "sunday":
+    console.log("sunday day")
+    break;
 }
