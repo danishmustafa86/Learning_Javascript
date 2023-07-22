@@ -1,5 +1,18 @@
-var n1 = 0
-do{
-    console.log("pakistan");
-    n1++
-}while(n1<70);
+//
+var day = 'Mon'
+
+if (day == "sun") {
+  console.log('day is sun')
+} else if (day == 'sat') {
+  console.log('day is sat')
+} else if (day == 'fri') {
+  console.log('day is fri')
+} else if (day == 'thur') {
+  console.log('day is thur')
+} else if (day == 'wed') {
+  console.log('day is wednesday')
+}  if (day == 'tue') {
+  console.log('day is tue')
+} else {
+  console.log('day is monday')
+} 
