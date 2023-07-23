@@ -137,49 +137,49 @@
 // // // // //     console.log('it is consonant')
 // // // // // }
 
-// // // // // let month = 2
-// // // // // switch (month) {
-// // // // //   case 1:
-// // // // //   case 3:
-// // // // //   case 5:
-// // // // //   case 7:
-// // // // //   case 8:
-// // // // //   case 10:
-// // // // //   case 12:
-// // // // //     console.log(31)
-// // // // //     break
-// // // // //   case 4:
-// // // // //   case 6:
-// // // // //   case 9:
-// // // // //   case 11:
-// // // // //     console.log(30)
-// // // // //     break
-// // // // //   case 2:
-// // // // //     console.log(28)
-// // // // //     break
-
-// // // // //   default:
-// // // // //     console.log("Invalid input");
-// // // // //     break
-// // // // // }
-
-// // // // wrte a program to find a number is positive ,negative or zero
-
-var n = 0
-switch (Math.sign(n)) {
+let month = 2
+switch (month) {
   case 1:
-    console.log('it is positive')
+  case 3:
+  case 5:
+  case 7:
+  case 8:
+  case 10:
+  case 12:
+    console.log(31)
     break
-  case -1:
-    console.log('it is netive')
-  
+  case 4:
+  case 6:
+  case 9:
+  case 11:
+    console.log(30)
     break
-  case 0:
-    console.log('it is zero')
+  case 2:
+    console.log(28)
     break
+
   default:
-    console.log('it is invalid input')
+    console.log("Invalid input");
+    break
 }
+
+// // // // // wrte a program to find a number is positive ,negative or zero
+
+// var n = 0
+// switch (Math.sign(n)) {
+//   case 1:
+//     console.log('it is positive')
+//     break
+//   case -1:
+//     console.log('it is netive')
+  
+//     break
+//   case 0:
+//     console.log('it is zero')
+//     break
+//   default:
+//     console.log('it is invalid input')
+// }
 
 // // // var num = ["ali","hamza", "haider", "babar","khawar"]
 // // // console.log("thirt variable",num[2])
