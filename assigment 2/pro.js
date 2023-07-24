@@ -222,21 +222,27 @@
 // var n2 = 8
 // var sum = n1+n2
 // console.log("sum+>",sum)
-
-var names=["ali","ahmad","danish","hamid","jajja"]
+// es.lengt console.log("names of indexes",names[namh])
+// var names=["ali","ahmad","danish","hamid","jajja"]
 // console.log("names of indexes",names[names.length])
 // var num=[3,4,56,43,2,12,5,67]
 //   for(var n=0;n<=7;n++){
 //     console.log(num[n])
 //   }
-//  console.log("names of indexes",names[names.length])
 
-names.push("ajwad","arbaz")
-console.log(names)
-names.pop()
-names.pop()
-console.log(names)
-names.unshift("mustafa")
-console.log(names)
-names.shift()
-console.log(names)
+
+// names.push("ajwad","arbaz")
+// console.log(names)
+// names.pop()
+// names.pop()
+// console.log(names)
+// names.unshift("mustafa")
+// console.log(names)
+// names.shift()
+// console.log(names)
+var names=["ali","ahmad","danish","hamid","jajja","hum","tum"]
+console.log(names.length[3])
+names.splice(2,0,"bin")
+console.log("names=>",names)
+var newNames = names.slice(1,7)
+console.log(newNames)
