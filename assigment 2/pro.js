@@ -181,8 +181,9 @@
 // // // // //     console.log('it is invalid input')
 // // // // // }
 
-// // // // // // // var num = ["ali","hamza", "haider", "babar","khawar"]
-// // // // // // // console.log("thirt variable",num[2])
+
+
+
 
 // // // // // var names = [0,6,3,4,5,6,7,8,9,10,11,12,2]
 // // // // // // console.log("thirt variable",num[2]);
@@ -196,26 +197,26 @@
 // // // // // console.log("sum",sum = n1+n2)
 
 
-// var n1 = 3
-// var n2 = 5
-// switch ("+") {
-//   case "/":
-//     console.log(n1/n2)
-//     break;
+var n1 = 3
+var n2 = 5
+switch ("+") {
+  case "/":
+    console.log(n1/n2)
+    break;
 
-//   case "*":
-//     console.log(n1*n2)
-//     break;
-//     case "+":
-//     console.log(n1+n2)
-//     break;
-//     case "-":
-//     console.log(n1-n2)
-//     break;
+  case "*":
+    console.log(n1*n2)
+    break;
+    case "+":
+    console.log(n1+n2)
+    break;
+    case "-":
+    console.log(n1-n2)
+    break;
   
-//   default:
-//     console.log(invlid)
-// }
+  default:
+    console.log(invlid)
+}
 
 var n1= 2
 var n2 = 8
