@@ -1,30 +1,30 @@
-// // // // // // // // // // // // // // // // // // // // // // // 1. Write a js program to print day of week name using switch case.
+//1. Write a js program to print day of week name using switch case.
 
-// // // // // // // // // // // // // // // // // // // // // // // 2. Write a js program print total number of days in a month using switch case.
+// 2. Write a js program print total number of days in a month using switch case.
 
-// // // // // // // // // // // // // // // // // // // // // // // 3. Write a js program to check whether an alphabet is vowel or consonant using switch case.
+// 3. Write a js program to check whether an alphabet is vowel or consonant using switch case.
 
-// // // // // // // // // // // // // // // // // // // // // // // 4. Write a js program to find maximum between two numbers using switch case.
+//  4. Write a js program to find maximum between two numbers using switch case.
 
-// // // // // // // // // // // // // // // // // // // // // // // 5. Write a js program to check whether a number is even or odd using switch case.
+//  5. Write a js program to check whether a number is even or odd using switch case.
 
-// // // // // // // // // // // // // // // // // // // // // // // 6. Write a js program to check whether a number is positive, negative or zero using switch case.
+//  6. Write a js program to check whether a number is positive, negative or zero using switch case.
 
-// // // // // // // // // // // // // // // // // // // // // // // 7. Write a js program to find roots of a quadratic equation using switch case.
+//  7. Write a js program to find roots of a quadratic equation using switch case.
 
-// // // // // // // // // // // // // // // // // // // // // // // 8. Write a js program to create Simple Calculator using switch case.
+// / 8. Write a js program to create Simple Calculator using switch case.
 
-// // // // // // // // // // // // // // // // // // // // // // // 9. Write a js program to input any character and check whether it is alphabet, digit or special character.
+// 9. Write a js program to input any character and check whether it is alphabet, digit or special character.
 
-// // // // // // // // // // // // // // // // // // // // // // // 10. Write a js program to check whether a character is uppercase or lowercase alphabet.
+// 10. Write a js program to check whether a character is uppercase or lowercase alphabet.
 
-// // // // // // // // // // // // // // // // // // // // // // // 11. Write a js program to input week number and print week day.
+// 11. Write a js program to input week number and print week day.
 
-// // // // // // // // // // // // // // // // // // // // // // // 12. Write a js program to input month number and print number of days in that month.
+//  12. Write a js program to input month number and print number of days in that month.
 
 // // // // // // // // // // // // // // // // // // // // // // // 13. Write a js program to count total number of notes in given amount.
 
-// // // // // // // // // // // // // // // // // // // // // // // 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
+// 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
 
 // // // // // // // // // // // // // // // // // // // // // // // 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
 
@@ -384,10 +384,8 @@
 //   console.log('sathrday')
 // }
 
-
 // 12 Write a js program to input month number and print number of days in that month.
 
- 
 // var num=2
 // if (num==1) {
 //   console.log("days are 31 in january")
@@ -424,22 +422,26 @@
 // else{
 //   console.log("invalid input")}
 
-
 // 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
 
-var a=90
-var b=34
-var c=56
+// var a = 90
+// var b = 34
+// var c = 56
+// if (a + b + c == 180) {
+//   console.log('triangle is valid')
+// } else {
+//   console.log('triangle is invalid')
+// }
 
-if(a+b+c==180){
+// 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
+
+var a=4
+var b=5
+var c=5
+if(a==b&&a==c&&c==b){
   console.log("triangle is valid")
 }
 else{
   console.log("triangle is invalid")
 
 }
-
-
-
-
-
