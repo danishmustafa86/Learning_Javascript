@@ -172,7 +172,7 @@
 // // // // // // // // // // // //     break
 // // // // // // // // // // // //   case -1:
 // // // // // // // // // // // //     console.log('it is netive')
-  
+
 // // // // // // // // // // // //     break
 // // // // // // // // // // // //   case 0:
 // // // // // // // // // // // //     console.log('it is zero')
@@ -180,10 +180,6 @@
 // // // // // // // // // // // //   default:
 // // // // // // // // // // // //     console.log('it is invalid input')
 // // // // // // // // // // // // }
-
-
-
-
 
 // // // // // // // // // // // // var names = [0,6,3,4,5,6,7,8,9,10,11,12,2]
 // // // // // // // // // // // // // console.log("thirt variable",num[2]);
@@ -195,7 +191,6 @@
 // // // // // // // // // // // // var n2 = 5
 // // // // // // // // // // // // var sum = n1+n2
 // // // // // // // // // // // // console.log("sum",sum = n1+n2)
-
 
 // // // // // // // var n1 = 3
 // // // // // // // var n2 = 5
@@ -213,7 +208,7 @@
 // // // // // // //     case "-":
 // // // // // // //     console.log(n1-n2)
 // // // // // // //     break;
-  
+
 // // // // // // //   default:
 // // // // // // //     console.log(invlid)
 // // // // // // // }
@@ -229,7 +224,6 @@
 // // // // //   for(var n=0;n<=7;n++){
 // // // // //     console.log(num[n])
 // // // // //   }
-
 
 // // // // // names.push("ajwad","arbaz")
 // // // // // console.log(names)
@@ -260,19 +254,36 @@
 // // default:
 // //     console.log("invalidinput")
 
-
 // write a program to check a number is even or odd in switch case
 
-
-var n1=4
-switch(n1%2==0){
-case true:
-    console.log("even number",)
-    break;
-    case false:
-        console.log("odd number")
-        break;
-        default:
-            console.log("invalid input")
+var n1 = 4
+switch (n1 % 2 == 0) {
+  case true:
+    console.log('even number')
+    break
+  case false:
+    console.log('odd number')
+    break
+  default:
+    console.log('invalid input')
 }
 
+//  Write a js program to find roots of a quadratic equation using switch case.
+
+const a = -9
+const b = 3
+const c = 1
+var disc = b * b - 4 * a * c
+switch (true) {
+  case disc == 0:
+    console.log('roots are real and imaginary')
+    break
+  case disc > 0:
+    console.log('roots are real and complex')
+    break
+  case disc < 0:
+    console.log('roots are imaginary')
+    break
+  default:
+    console.log('invalid input')
+}
