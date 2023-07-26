@@ -256,34 +256,45 @@
 
 // write a program to check a number is even or odd in switch case
 
-var n1 = 4
-switch (n1 % 2 == 0) {
-  case true:
-    console.log('even number')
-    break
-  case false:
-    console.log('odd number')
-    break
-  default:
-    console.log('invalid input')
-}
+// 
 
 //  Write a js program to find roots of a quadratic equation using switch case.
 
-const a = -9
-const b = 3
-const c = 1
-var disc = b * b - 4 * a * c
-switch (true) {
-  case disc == 0:
-    console.log('roots are real and imaginary')
-    break
-  case disc > 0:
-    console.log('roots are real and complex')
-    break
-  case disc < 0:
-    console.log('roots are imaginary')
-    break
-  default:
-    console.log('invalid input')
+// const a = -9
+// const b = 3
+// const c = 1
+// var disc = b * b - 4 * a * c
+// switch (true) {
+//   case disc == 0:
+//     console.log('roots are real and imaginary')
+//     break
+//   case disc > 0:
+//     console.log('roots are real and complex')
+//     break
+//   case disc < 0:
+//     console.log('roots are imaginary')
+//     break
+//   default:
+//     console.log('invalid input')
+// }
+
+// Write a js program to input any character and check whether it is alphabet, digit or special character.
+
+
+var ch='?'
+if(ch=='a'||ch=='b'||ch=='c'||ch=='d'||ch=='e'||ch=='f'||ch=='g'||ch =='h'||ch=='i'||ch=='j'||ch=='k'||ch=='l'||ch=='m'||ch=='n'
+||ch=='o'||ch=='p'||ch=='q'||ch=='r'||ch=='s'||ch=='t'||ch=='u'||ch=='v'||ch=='w'||ch=='x'||ch=='y'||ch=='z'){
+    console.log("it is alphabet")
 }
+else if(ch==1||ch==2||ch==3||ch==4||ch==5||ch==6||ch==7||ch==8||ch==9||ch==0){
+    console.log("it is digit")
+}
+else{
+    console.log("it is special character")
+}
+
+
+
+
+
+
