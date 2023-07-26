@@ -385,46 +385,59 @@
 // }
 
 
-// Write a js program to input month number and print number of days in that month.
+// 12 Write a js program to input month number and print number of days in that month.
 
  
-var num=27
-if (num==1) {
-  console.log("days are 31 in january")
-  } else if(num==2){
-  console.log("days are 28 in February")}
- else if(num==3){
-  console.log("days are 31 in March")}
-  else if(num==4){
-    console.log("days are 31 in April")}
+// var num=2
+// if (num==1) {
+//   console.log("days are 31 in january")
+//   } else if(num==2){
+//   console.log("days are 28 in February")}
+//  else if(num==3){
+//   console.log("days are 31 in March")}
+//   else if(num==4){
+//     console.log("days are 31 in April")}
 
- else if(num==5){
-  console.log("days are 31 in january")}
+//  else if(num==5){
+//   console.log("days are 31 in january")}
 
- else if(num==6){
-  console.log("days are 30 in june")}
+//  else if(num==6){
+//   console.log("days are 30 in june")}
 
- else if(num==7){
-  console.log("days are 31 in july")}
+//  else if(num==7){
+//   console.log("days are 31 in july")}
 
- else if(num==8){
-  console.log("days are 31 in august")}
+//  else if(num==8){
+//   console.log("days are 31 in august")}
 
- else if(num==9){
-  console.log("days are 3o in september")}
+//  else if(num==9){
+//   console.log("days are 3o in september")}
 
- else if(num==10){
-  console.log("days are 31 in october ")}
+//  else if(num==10){
+//   console.log("days are 31 in october ")}
 
- else if(num==11){
-  console.log("days are 30 in november")}
+//  else if(num==11){
+//   console.log("days are 30 in november")}
 
- else if(num==12){
-  console.log("days are 31 in december")}
+//  else if(num==12){
+//   console.log("days are 31 in december")}
+// else{
+//   console.log("invalid input")}
+
+
+// 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
+
+var a=90
+var b=34
+var c=56
+
+if(a+b+c==180){
+  console.log("triangle is valid")
+}
 else{
-  console.log("invalid input")}
+  console.log("triangle is invalid")
 
-
+}
 
 
 
