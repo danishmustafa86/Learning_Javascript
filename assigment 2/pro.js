@@ -26,7 +26,7 @@
 
 // 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
 
-// // // // // // // // // // // // // // // // // // // // // // // 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
+//  15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
 
 // // // // // // // // // // // // // // // // // // // // // // // 16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
 
@@ -435,13 +435,31 @@
 
 // 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
 
+// var a=4
+// var b=5
+// var c=5
+// if(a==b&&a==c&&c==b){
+//   console.log("triangle is valid")
+// }
+// else{
+//   console.log("triangle is invalid")
+
+// }
+
+
+// Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
+
 var a=4
 var b=5
-var c=5
+var c=6
 if(a==b&&a==c&&c==b){
-  console.log("triangle is valid")
+  console.log("it is equilateral triangle")
 }
-else{
-  console.log("triangle is invalid")
+else if(a==b||a==c||c==b){
+  console.log("it is isosceles triangle")
+
+}
+else if(a!=b&&a!=c&&c!=b){
+  console.log("it is scalene triangle")
 
 }
