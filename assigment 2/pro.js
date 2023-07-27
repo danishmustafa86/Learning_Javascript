@@ -22,7 +22,7 @@
 
 //  12. Write a js program to input month number and print number of days in that month.
 
- // 13. Write a js program to count total number of notes in given amount.
+// 13. Write a js program to count total number of notes in given amount.
 
 // 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
 
@@ -444,7 +444,6 @@
 
 // }
 
-
 // Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
 
 // var a=4
@@ -462,7 +461,7 @@
 
 // }
 
- // 17. Write a js program to find all roots of a quadratic equation.
+// 17. Write a js program to find all roots of a quadratic equation.
 
 //  var a=1
 //  var b=6
@@ -490,12 +489,49 @@
 //   else{
 //     console.log("invalid input")}
 
-
 //13. Write a js program to count total number of notes in given amount.
 
-var money=150.0
-var note=200.0
-var notes=money/note
-console.log("the notes are",notes)
-  
+// var money=150.0
+// var note=200.0
+// var notes=money/note
+// console.log("the notes are",notes)
 
+//19. Write a js program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+
+// Percentage >= 90% : Grade A
+// Percentage >= 80% : Grade B
+// Percentage >= 70% : Grade C
+// Percentage >= 60% : Grade D
+// Percentage >= 40% : Grade E
+// Percentage < 40% : Grade F
+
+var math = 75
+var physics = 78
+var chemistry = 77
+var biology = 80
+var computer = 70
+var total = 500
+var sum = math + physics + chemistry + biology + computer
+var percentage = (sum/total*100)
+console.log('percentage is', percentage)
+if (percentage >= 90) {
+  console.log('grade is A')
+}
+else if (percentage >= 80) {
+  console.log('grade is B')
+}
+else if (percentage >= 70) {
+  console.log('grade is C')
+}
+else if (percentage >= 60) {
+  console.log('grade is D')
+}
+else if (percentage >= 40) {
+  console.log('grade is E ')
+}
+else if (percentage < 40) {
+  console.log('grade is F')
+}
+else{
+  console.log("invalid input")
+}
