@@ -28,7 +28,7 @@
 
 //  15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
 
-// // // // // // // // // // // // // // // // // // // // // // // 16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
+//  16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
 
 // // // // // // // // // // // // // // // // // // // // // // // 17. Write a js program to find all roots of a quadratic equation.
 
@@ -449,17 +449,33 @@
 
 // Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
 
-var a=4
-var b=5
-var c=6
-if(a==b&&a==c&&c==b){
-  console.log("it is equilateral triangle")
-}
-else if(a==b||a==c||c==b){
-  console.log("it is isosceles triangle")
+// var a=4
+// var b=5
+// var c=6
+// if(a==b&&a==c&&c==b){
+//   console.log("it is equilateral triangle")
+// }
+// else if(a==b||a==c||c==b){
+//   console.log("it is isosceles triangle")
 
-}
-else if(a!=b&&a!=c&&c!=b){
-  console.log("it is scalene triangle")
+// }
+// else if(a!=b&&a!=c&&c!=b){
+//   console.log("it is scalene triangle")
 
+// }
+
+ // 17. Write a js program to find all roots of a quadratic equation.
+
+ var a=1
+ var b=6
+ var  c=5
+ var disc=b*b-4*a*c
+ if(disc>0){
+  console.log("roots are real and complex")
+ }
+ else if(disc==0){
+  console.log("roots are real and imaginary")
+}
+else if(disc<0){
+  console.log("roots are imaginary")
 }
