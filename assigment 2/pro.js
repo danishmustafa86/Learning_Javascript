@@ -22,7 +22,7 @@
 
 //  12. Write a js program to input month number and print number of days in that month.
 
-// // // // // // // // // // // // // // // // // // // // // // // 13. Write a js program to count total number of notes in given amount.
+ // 13. Write a js program to count total number of notes in given amount.
 
 // 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
 
@@ -30,8 +30,7 @@
 
 //  16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
 // 17. Write a js program to find all roots of a quadratic equation.
-
-// // // // // // // // // // // // // // // // // // // // // // // 18. Write a js program to calculate profit or loss.
+// 18. Write a js program to calculate profit or loss.
 
 // // // // // // // // // // // // // // // // // // // // // // // 19. Write a js program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
 
@@ -480,16 +479,23 @@
 // }
 
 // 18. Write a js program to calculate profit or loss.
-var originalcost=150000
-var total=35000
-var profit=total-originalcost
-var loss=originalcost-total
-if(total>originalcost){
-console.log("we get profit",profit)}
-else if(total<originalcost){
-  console.log("we get loss",loss)}
-  else{
-    console.log("invalid input")}
+// var originalcost=150000
+// var total=35000
+// var profit=total-originalcost
+// var loss=originalcost-total
+// if(total>originalcost){
+// console.log("we get profit",profit)}
+// else if(total<originalcost){
+//   console.log("we get loss",loss)}
+//   else{
+//     console.log("invalid input")}
 
+
+//13. Write a js program to count total number of notes in given amount.
+
+var money=150.0
+var note=200.0
+var notes=money/note
+console.log("the notes are",notes)
   
 
