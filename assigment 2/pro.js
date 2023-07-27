@@ -29,8 +29,7 @@
 //  15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
 
 //  16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
-
-// // // // // // // // // // // // // // // // // // // // // // // 17. Write a js program to find all roots of a quadratic equation.
+// 17. Write a js program to find all roots of a quadratic equation.
 
 // // // // // // // // // // // // // // // // // // // // // // // 18. Write a js program to calculate profit or loss.
 
@@ -466,16 +465,31 @@
 
  // 17. Write a js program to find all roots of a quadratic equation.
 
- var a=1
- var b=6
- var  c=5
- var disc=b*b-4*a*c
- if(disc>0){
-  console.log("roots are real and complex")
- }
- else if(disc==0){
-  console.log("roots are real and imaginary")
-}
-else if(disc<0){
-  console.log("roots are imaginary")
-}
+//  var a=1
+//  var b=6
+//  var  c=5
+//  var disc=b*b-4*a*c
+//  if(disc>0){
+//   console.log("roots are real and complex")
+//  }
+//  else if(disc==0){
+//   console.log("roots are real and imaginary")
+// }
+// else if(disc<0){
+//   console.log("roots are imaginary")
+// }
+
+// 18. Write a js program to calculate profit or loss.
+var originalcost=150000
+var total=35000
+var profit=total-originalcost
+var loss=originalcost-total
+if(total>originalcost){
+console.log("we get profit",profit)}
+else if(total<originalcost){
+  console.log("we get loss",loss)}
+  else{
+    console.log("invalid input")}
+
+  
+
