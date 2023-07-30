@@ -32,163 +32,163 @@
 // 17. Write a js program to find all roots of a quadratic equation.
 // 18. Write a js program to calculate profit or loss.
 
-// // // // // // // // // // // // // // // // // // // // // // // 19. Write a js program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+ // 19. Write a js program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
 
-// // // // // // // // // // // // // // // // // // // // // // // Percentage >= 90% : Grade A
+// Percentage >= 90% : Grade A
 
-// // // // // // // // // // // // // // // // // // // // // // // Percentage >= 80% : Grade B
+// Percentage >= 80% : Grade B
 
-// // // // // // // // // // // // // // // // // // // // // // // Percentage >= 70% : Grade C
+// Percentage >= 70% : Grade C
 
-// // // // // // // // // // // // // // // // // // // // // // // Percentage >= 60% : Grade D
+// Percentage >= 60% : Grade D
 
-// // // // // // // // // // // // // // // // // // // // // // // Percentage >= 40% : Grade E
+// Percentage >= 40% : Grade E
 
-// // // // // // // // // // // // // // // // // // // // // // // Percentage < 40% : Grade F
+// Percentage < 40% : Grade F
 
-// // // // // // // // // // // // // // // // // // // // // // // 20. Write a js program to input basic salary of an employee and calculate its Gross salary according to following:
+// // // 20. Write a js program to input basic salary of an employee and calculate its Gross salary according to following:
 
-// // // // // // // // // // // // // // // // // // // // // // // Basic Salary <= 10000 : HRA = 20%, DA = 80%
+// // // Basic Salary <= 10000 : HRA = 20%, DA = 80%
 
-// // // // // // // // // // // // // // // // // // // // // // // Basic Salary <= 20000 : HRA = 25%, DA = 90%
+// // // Basic Salary <= 20000 : HRA = 25%, DA = 90%
 
-// // // // // // // // // // // // // // // // // // // // // // // Basic Salary > 20000 : HRA = 30%, DA = 95%
+// // // Basic Salary > 20000 : HRA = 30%, DA = 95%
 
-// // // // // // // // // // // // // // // // // // // // // // // 21. Write a js program to input electricity unit charges and calculate total electricity bill according to the given condition:
+// // // 21. Write a js program to input electricity unit charges and calculate total electricity bill according to the given condition:
 
-// // // // // // // // // // // // // // // // // // // // // // // For first 50 units Rs. 0.50/unit
+// // // For first 50 units Rs. 0.50/unit
 
-// // // // // // // // // // // // // // // // // // // // // // // For next 100 units Rs. 0.75/unit
+// // // For next 100 units Rs. 0.75/unit
 
-// // // // // // // // // // // // // // // // // // // // // // // For next 100 units Rs. 1.20/unit
+// // // For next 100 units Rs. 1.20/unit
 
-// // // // // // // // // // // // // // // // // // // // // // // For unit above 250 Rs. 1.50/unit
+// // // For unit above 250 Rs. 1.50/unit
 
-// // // // // // // // // // // // // // // // // // // // // // // An additional surcharge of 20% is added to the bill
+// // // An additional surcharge of 20% is added to the bill
 
-// // // // // // // // // // // // // // // // // // // // // // // Assignment 2
+// // // Assignment 2
 
-// // // // // // // // // // // // // // // // // // // // // // write a program to print day of week name using switch case
-// // // // // // // // // // // // // // // // // // var day = 'friday'
-// // // // // // // // // // // // // // // // // // switch (day) {
-// // // // // // // // // // // // // // // // // //   case 'monday':
-// // // // // // // // // // // // // // // // // //     console.log('monday day')
-// // // // // // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // // // // // //   case day == 'tuesday':
-// // // // // // // // // // // // // // // // // //     console.log('tuesday day')
-// // // // // // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // // // // // //   case day = 'wednesday':
-// // // // // // // // // // // // // // // // // //     console.log('wedesday day')
-// // // // // // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // // // // // //   case day = 'thursday':
-// // // // // // // // // // // // // // // // // //     console.log('thursday day')
-// // // // // // // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // // // // // // //   case day = 'friday':
-// // // // // // // // // // // // // // // // // // //     console.log('friday day')
-// // // // // // // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // // // // // // //   case day = 'sathurday':
-// // // // // // // // // // // // // // // // // // //     console.log('sathurday day')
-// // // // // // // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // // // // // // //   case day = 'sunday':
-// // // // // // // // // // // // // // // // // // //     console.log('sunday day')
-// // // // // // // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // // // // // // //   default:
-// // // // // // // // // // // // // // // // // // //     console.log('invalid input')
-// // // // // // // // // // // // // // // // // // // }
+// // write a program to print day of week name using switch case
+// var day = 'friday'
+// switch (day) {
+//   case 'monday':
+//     console.log('monday day')
+//     break
+//   case day == 'tuesday':
+//     console.log('tuesday day')
+//     break
+//   case day = 'wednesday':
+//     console.log('wedesday day')
+//     break
+//   case day = 'thursday':
+//     console.log('thursday day')
+// //     break
+// //   case day = 'friday':
+// //     console.log('friday day')
+// //     break
+// //   case day = 'sathurday':
+// //     console.log('sathurday day')
+// //     break
+// //   case day = 'sunday':
+// //     console.log('sunday day')
+// //     break
+// //   default:
+// //     console.log('invalid input')
+// // }
 
-// // // // // // // // // // // // // // // // // // // // // write a program to print total number of days in a month using switch case
+// // // // write a program to print total number of days in a month using switch case
 
-// // // // // // // // // // // // // // // // // // // // var days=31
-// // // // // // // // // // // // // // // // // // // // switch(days){
-// // // // // // // // // // // // // // // // // // // //    case 31:
-// // // // // // // // // // // // // // // // // // // //     console.log("1,3,5,7,8,10,12")
-// // // // // // // // // // // // // // // // // // // //    break;
-// // // // // // // // // // // // // // // // // // // //    case days=30:
-// // // // // // // // // // // // // // // // // // // //     console.log("4,6,9,11")
-// // // // // // // // // // // // // // // // // // // //     break;
-// // // // // // // // // // // // // // // // // // // //     default:
-// // // // // // // // // // // // // // // // // // // //     console.log("28")
-// // // // // // // // // // // // // // // // // // // //   }
+// // // var days=31
+// // // switch(days){
+// // //    case 31:
+// // //     console.log("1,3,5,7,8,10,12")
+// // //    break;
+// // //    case days=30:
+// // //     console.log("4,6,9,11")
+// // //     break;
+// // //     default:
+// // //     console.log("28")
+// // //   }
 
-// // // // // // // // // // // // // // // // // // // write a program to check an alphabet is vowel or consonant
+// // write a program to check an alphabet is vowel or consonant
 
-// // // // // // // // // // // // // // // // // // var ch = 'i'
-// // // // // // // // // // // // // // // // // // switch (
-// // // // // // // // // // // // // // // // // //   ch.toLowerCase() // ch.toLowerCase() == 'u'
-// // // // // // // // // // // // // // // // // // ) {
-// // // // // // // // // // // // // // // // // //   case 'a':
-// // // // // // // // // // // // // // // // // //     console.log('it is vowel')
-// // // // // // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // // // // // //   case 'e':
-// // // // // // // // // // // // // // // // // //     console.log('it is vowel')
-// // // // // // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // // // // // //   case 'i':
-// // // // // // // // // // // // // // // // // //     console.log('it is vowel')
-// // // // // // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // // // // // //   case 'o':
-// // // // // // // // // // // // // // // // // //     console.log('it is vowel')
-// // // // // // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // // // // // //   case 'u':
-// // // // // // // // // // // // // // // // // //     console.log('it is vowel')
-// // // // // // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // // // // // //   default:
-// // // // // // // // // // // // // // // // // //     console.log('it is consonant')
-// // // // // // // // // // // // // // // // // // }
+// var ch = 'i'
+// switch (
+//   ch.toLowerCase() // ch.toLowerCase() == 'u'
+// ) {
+//   case 'a':
+//     console.log('it is vowel')
+//     break
+//   case 'e':
+//     console.log('it is vowel')
+//     break
+//   case 'i':
+//     console.log('it is vowel')
+//     break
+//   case 'o':
+//     console.log('it is vowel')
+//     break
+//   case 'u':
+//     console.log('it is vowel')
+//     break
+//   default:
+//     console.log('it is consonant')
+// }
 
-// // // // // // // // // // // // // let month = 2
-// // // // // // // // // // // // // switch (month) {
-// // // // // // // // // // // // //   case 1:
-// // // // // // // // // // // // //   case 3:
-// // // // // // // // // // // // //   case 5:
-// // // // // // // // // // // // //   case 7:
-// // // // // // // // // // // // //   case 8:
-// // // // // // // // // // // // //   case 10:
-// // // // // // // // // // // // //   case 12:
-// // // // // // // // // // // // //     console.log(31)
-// // // // // // // // // // // // //     break
-// // // // // // // // // // // // //   case 4:
-// // // // // // // // // // // // //   case 6:
-// // // // // // // // // // // // //   case 9:
-// // // // // // // // // // // // //   case 11:
-// // // // // // // // // // // // //     console.log(30)
-// // // // // // // // // // // // //     break
-// // // // // // // // // // // // //   case 2:
-// // // // // // // // // // // // //     console.log(28)
-// // // // // // // // // // // // //     break
+// let month = 2
+// switch (month) {
+//   case 1:
+//   case 3:
+//   case 5:
+//   case 7:
+//   case 8:
+//   case 10:
+//   case 12:
+//     console.log(31)
+//     break
+//   case 4:
+//   case 6:
+//   case 9:
+//   case 11:
+//     console.log(30)
+//     break
+//   case 2:
+//     console.log(28)
+//     break
 
-// // // // // // // // // // // // //   default:
-// // // // // // // // // // // // //     console.log("Invalid input");
-// // // // // // // // // // // // //     break
-// // // // // // // // // // // // // }
+//   default:
+//     console.log("Invalid input");
+//     break
+// }
 
-// // // // // // // // // // // // // // // // // // wrte a program to find a number is positive ,negative or zero
+// // // // // wrte a program to find a number is positive ,negative or zero
 
-// // // // // // // // // // // // // // var n = 0
-// // // // // // // // // // // // // // switch (Math.sign(n)) {
-// // // // // // // // // // // // // //   case 1:
-// // // // // // // // // // // // // //     console.log('it is positive')
-// // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // //   case -1:
-// // // // // // // // // // // // // //     console.log('it is netive')
+// var n = 0
+// switch (Math.sign(n)) {
+//   case 1:
+//     console.log('it is positive')
+//     break
+//   case -1:
+//     console.log('it is netive')
 
-// // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // //   case 0:
-// // // // // // // // // // // // // //     console.log('it is zero')
-// // // // // // // // // // // // // //     break
-// // // // // // // // // // // // // //   default:
-// // // // // // // // // // // // // //     console.log('it is invalid input')
-// // // // // // // // // // // // // // }
+//     break
+//   case 0:
+//     console.log('it is zero')
+//     break
+//   default:
+//     console.log('it is invalid input')
+// }
 
-// // // // // // // // // // // // // // var names = [0,6,3,4,5,6,7,8,9,10,11,12,2]
-// // // // // // // // // // // // // // // console.log("thirt variable",num[2]);
-// // // // // // // // // // // // // // // console.log("length of variables",nam.length);
+// var names = [0,6,3,4,5,6,7,8,9,10,11,12,2]
+// // console.log("thirt variable",num[2]);
+// // console.log("length of variables",nam.length);
 
-// // // // // // // // // // // // // // for(var ind=0;ind<12;ind++)
-// // // // // // // // // // // // // // console.log("arry values",names[ind]);
-// // // // // // // // // // // // // // var n1 = 4
-// // // // // // // // // // // // // // var n2 = 5
-// // // // // // // // // // // // // // var sum = n1+n2
-// // // // // // // // // // // // // // console.log("sum",sum = n1+n2)
+// for(var ind=0;ind<12;ind++)
+// console.log("arry values",names[ind]);
+// var n1 = 4
+// var n2 =5
+//  var sum = n1+n2
+// console.log("sum",sum = n1+n2)
 
 // // // // // // // // // var n1 = 3
 // // // // // // // // // var n2 = 5
@@ -505,33 +505,54 @@
 // Percentage >= 40% : Grade E
 // Percentage < 40% : Grade F
 
-var math = 75
-var physics = 78
-var chemistry = 77
-var biology = 80
-var computer = 70
-var total = 500
-var sum = math + physics + chemistry + biology + computer
-var percentage = (sum/total*100)
-console.log('percentage is', percentage)
-if (percentage >= 90) {
-  console.log('grade is A')
+// var math = 75
+// var physics = 78
+// var chemistry = 77
+// var biology = 80
+// var computer = 70
+// var total = 500
+// var sum = math + physics + chemistry + biology + computer
+// var percentage = (sum/total*100)
+// console.log('percentage is', percentage)
+// if (percentage >= 90) {
+//   console.log('grade is A')
+// }
+// else if (percentage >= 80) {
+//   console.log('grade is B')
+// }
+// else if (percentage >= 70) {
+//   console.log('grade is C')
+// }
+// else if (percentage >= 60) {
+//   console.log('grade is D')
+// }
+// else if (percentage >= 40) {
+//   console.log('grade is E ')
+// }
+// else if (percentage < 40) {
+//   console.log('grade is F')
+// }
+// else{
+//   console.log("invalid input")
+// }
+
+// 20. Write a js program to input basic salary of an employee and calculate its Gross salary according to following:
+
+// Basic Salary <= 10000 : HRA = 20%, DA = 80%
+
+ // Basic Salary <= 20000 : HRA = 25%, DA = 90%
+
+ // Basic Salary > 20000 : HRA = 30%, DA = 95%
+
+var basicsalary=15000
+if(basicsalary<=10000){
+  console.log("HRA=20% and,DA=80%")
 }
-else if (percentage >= 80) {
-  console.log('grade is B')
-}
-else if (percentage >= 70) {
-  console.log('grade is C')
-}
-else if (percentage >= 60) {
-  console.log('grade is D')
-}
-else if (percentage >= 40) {
-  console.log('grade is E ')
-}
-else if (percentage < 40) {
-  console.log('grade is F')
-}
-else{
+else if(basicsalary<=20000){
+  console.log("HRA=25% and,DA=90%")
+}else if(basicsalary>20000){
+  console.log("HR=30% and,DA=95%")
+}else{
   console.log("invalid input")
+
 }
