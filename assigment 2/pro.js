@@ -544,15 +544,42 @@
 
  // Basic Salary > 20000 : HRA = 30%, DA = 95%
 
-var basicsalary=15000
-if(basicsalary<=10000){
-  console.log("HRA=20% and,DA=80%")
-}
-else if(basicsalary<=20000){
-  console.log("HRA=25% and,DA=90%")
-}else if(basicsalary>20000){
-  console.log("HR=30% and,DA=95%")
-}else{
-  console.log("invalid input")
+// var basicsalary=15000
+// if(basicsalary<=10000){
+//   console.log("HRA=20% and,DA=80%")
+// }
+// else if(basicsalary<=20000){
+//   console.log("HRA=25% and,DA=90%")
+// }else if(basicsalary>20000){
+//   console.log("HR=30% and,DA=95%")
+// }else{
+//   console.log("invalid input")
 
+// }
+
+// // // 21. Write a js program to input electricity unit charges and calculate total electricity bill according to the given condition:
+
+// // // For first 50 units Rs. 0.50/unit
+
+// // // For next 100 units Rs. 0.75/unit
+
+// // // For next 100 units Rs. 1.20/unit
+
+// // // For unit above 250 Rs. 1.50/unit
+
+// // // An additional surcharge of 20% is added to the bill
+
+
+var tbil=0
+var units=234
+if(units<=50){
+  tbil=50*0.50
+}else if(units<=150){
+  tbil=50*0.50+(units-50)*0.75
+}else if(units<=250){
+  tbil=50*0.50+100*0.75+(units-150)*1.20
+}else{
+  tbil=50*0.50+100*0.75+100*1.20+(units-250)*1.50
 }
+tbil=tbil*1.20
+console.log(tbil)
