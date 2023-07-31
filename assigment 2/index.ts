@@ -10,5 +10,5 @@
 // var userName:string =`Ali${userName1}`
 // console.log(typeof userName)
 var userName1:string ="ahmad"
-var userName2:string =`Ali`
-console.log(`"DANISH",ali,${userName1}`)
+ 
+console.log(`"DANISH`)
