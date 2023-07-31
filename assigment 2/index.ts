@@ -11,4 +11,4 @@
 // console.log(typeof userName)
 var userName1:string ="ahmad"
  
-console.log(`"DANISH`)
+console.log(userName1)
