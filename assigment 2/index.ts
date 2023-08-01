@@ -9,6 +9,6 @@
 // var userName1:string ="ahmad"
 // var userName:string =`Ali${userName1}`
 // console.log(typeof userName)
-var userName1:string ="ahmad"
+var user:string =`"ahmad",hamid`
  
-console.log(userName1)
+console.log(user)
