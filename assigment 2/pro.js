@@ -492,7 +492,7 @@
 //13. Write a js program to count total number of notes in given amount.
 
 // var money=150.0
-// var note=200.0
+// var note=10.0
 // var notes=money/note
 // console.log("the notes are",notes)
 
@@ -571,15 +571,15 @@
 
 
 var tbil=0
-var units=234
+var units=150
 if(units<=50){
-  tbil=50*0.50
+  tbil=50*40
 }else if(units<=150){
-  tbil=50*0.50+(units-50)*0.75
+  tbil=50*40+(units-50)*42
 }else if(units<=250){
-  tbil=50*0.50+100*0.75+(units-150)*1.20
+  tbil=50*40+100*42+(units-150)*45
 }else{
-  tbil=50*0.50+100*0.75+100*1.20+(units-250)*1.50
+  tbil=50*40+100*42+100*45+(units-250)*50
 }
 tbil=tbil*1.20
 console.log(tbil)

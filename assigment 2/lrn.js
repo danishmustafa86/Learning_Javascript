@@ -4,8 +4,8 @@
 // console.log("sum=>", sum);
 
 let ar=[1,2,3,4]
-let find =ar.find(( elment,index,arry) => {
-    console.log(element, index, arry)
-    return element==2;
+let find =ar.find(( elment,index,ar) => {
+    console.log(element, index, ar)
+    return element == 2;
 })
 console.log(find);
