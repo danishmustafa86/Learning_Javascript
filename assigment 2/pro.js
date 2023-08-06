@@ -571,7 +571,7 @@
 
 
 var tbil=0
-var units=2000
+var units=200
 if(units<=50){
   tbil=50*40
 }else if(units<=150){
