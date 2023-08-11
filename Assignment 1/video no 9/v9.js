@@ -12,10 +12,10 @@ switch (day) {
   case "cool":  console.log("today is col");
     break;
   case "cloudy":
-    console.log(" today is cloudy");
+    console.log(" today is cloud");
     break;
   case "pleasant":
-    console.log("today is pleasant");
+    console.log("today is plesant");
     break;
   default:
     console.log("Invalid Input!!")
