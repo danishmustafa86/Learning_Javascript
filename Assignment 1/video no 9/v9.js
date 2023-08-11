@@ -4,13 +4,12 @@ switch (day) {
     console.log("today is nor");
     break;
   case "med":
-    console.log("today is med");
+    console.log("today medium");
     break;
   case "hot":
-    console.log(" today is hot");
+    console.log(" today is very hot");
     break;
-  case "cool":
-    console.log("today is cool");
+  case "cool":  console.log("today is col");
     break;
   case "cloudy":
     console.log(" today is cloudy");
