@@ -2,7 +2,7 @@
 var day = 'wed'
 
 if (day == "sun") {
-  console.log('day is sun')
+  console.log('day is sunday')
 } else if (day == 'sat') {
   console.log('day is saturday')
 } else if (day == 'fri') {
