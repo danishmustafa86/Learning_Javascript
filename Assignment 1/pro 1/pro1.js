@@ -1,97 +1,105 @@
-// // 1. Write a js program to print day of week name using switch case.
+// // // 1. Write a js program to print day of week name using switch case.
 
-// // 2. Write a js program print total number of days in a month using switch case.
+// // // 2. Write a js program print total number of days in a month using switch case.
 
-// // 3. Write a js program to check whether an alphabet is vowel or consonant using switch case.
+// // // 3. Write a js program to check whether an alphabet is vowel or consonant using switch case.
 
-// // 4. Write a js program to find maximum between two numbers using switch case.
+// // // 4. Write a js program to find maximum between two numbers using switch case.
 
-// // 5. Write a js program to check whether a number is even or odd using switch case.
+// // // 5. Write a js program to check whether a number is even or odd using switch case.
 
-// // 6. Write a js program to check whether a number is positive, negative or zero using switch case.
+// // // 6. Write a js program to check whether a number is positive, negative or zero using switch case.
 
-// // 7. Write a js program to find roots of a quadratic equation using switch case.
+// // // 7. Write a js program to find roots of a quadratic equation using switch case.
 
-// // 8. Write a js program to create Simple Calculator using switch case.
+// // // 8. Write a js program to create Simple Calculator using switch case.
 
-// // 9. Write a js program to input any character and check whether it is alphabet, digit or special character.
+// // // 9. Write a js program to input any character and check whether it is alphabet, digit or special character.
 
-// // 10. Write a js program to check whether a character is uppercase or lowercase alphabet.
+// // // 10. Write a js program to check whether a character is uppercase or lowercase alphabet.
 
-// // 11. Write a js program to input week number and print week day.
+// // // 11. Write a js program to input week number and print week day.
 
-// // 12. Write a js program to input month number and print number of days in that month.
+// // // 12. Write a js program to input month number and print number of days in that month.
 
-// // 13. Write a js program to count total number of notes in given amount.
+// // // 13. Write a js program to count total number of notes in given amount.
 
-// // 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
+// // // 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
 
-// // 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
+// // // 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
 
-// // 16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
+// // // 16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
 
-// // 17. Write a js program to find all roots of a quadratic equation.
+// // // 17. Write a js program to find all roots of a quadratic equation.
 
-// // 18. Write a js program to calculate profit or loss.
+// // // 18. Write a js program to calculate profit or loss.
 
-// // 19. Write a js program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+// // // 19. Write a js program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
 
-// // Percentage >= 90% : Grade A
+// // // Percentage >= 90% : Grade A
 
-// // Percentage >= 80% : Grade B
+// // // Percentage >= 80% : Grade B
 
-// // Percentage >= 70% : Grade C
+// // // Percentage >= 70% : Grade C
 
-// // Percentage >= 60% : Grade D
+// // // Percentage >= 60% : Grade D
 
-// // Percentage >= 40% : Grade E
+// // // Percentage >= 40% : Grade E
 
-// // Percentage < 40% : Grade F
+// // // Percentage < 40% : Grade F
 
-// // 20. Write a js program to input basic salary of an employee and calculate its Gross salary according to following:
+// // // 20. Write a js program to input basic salary of an employee and calculate its Gross salary according to following:
 
-// // Basic Salary <= 10000 : HRA = 20%, DA = 80%
+// // // Basic Salary <= 10000 : HRA = 20%, DA = 80%
 
-// // Basic Salary <= 20000 : HRA = 25%, DA = 90%
+// // // Basic Salary <= 20000 : HRA = 25%, DA = 90%
 
-// // Basic Salary > 20000 : HRA = 30%, DA = 95%
+// // // Basic Salary > 20000 : HRA = 30%, DA = 95%
 
-// // 21. Write a js program to input electricity unit charges and calculate total electricity bill according to the given condition:
+// // // 21. Write a js program to input electricity unit charges and calculate total electricity bill according to the given condition:
 
-// // For first 50 units Rs. 0.50/unit
+// // // For first 50 units Rs. 0.50/unit
 
-// // For next 100 units Rs. 0.75/unit
+// // // For next 100 units Rs. 0.75/unit
 
-// // For next 100 units Rs. 1.20/unit
+// // // For next 100 units Rs. 1.20/unit
 
-// // For unit above 250 Rs. 1.50/unit
+// // // For unit above 250 Rs. 1.50/unit
 
-// // An additional surcharge of 20% is added to the bill
+// // // An additional surcharge of 20% is added to the bill
 
-// // Assignment 2
+// // // Assignment 2
 
-// write a program to print day of week name using switch case
-var day = "monday"
-switch (day) {
-  case day == "monday":
-    console.log("monday day")
-    break;
-  case day == "tuesday":
-    console.log("tuesday day")
-    break;
-  case day == "wednesday":
-    console.log("wedesday day")
-    break;
-  case day == "thursday":
-    console.log("thursday day")
-    break;
-  case day == "friday":
-    console.log("friday day")
-    break;
-  case day == "sathurday":
-    console.log("sathurday day")
-    break;
-  case day == "sunday":
-    console.log("sunday day")
-    break;
-}
+// // write a program to print day of week name using switch case
+// var day = 'friday'
+// switch (day) {
+//   case day = 'monday':
+//     console.log('monday day')
+//     break
+//   case day = 'tuesday':
+//     console.log('tuesday day')
+//     break
+//   case day = 'wednesday':
+//     console.log('wedesday day')
+//     break
+//   case day = 'thursday':
+//     console.log('thursday day')
+//     break
+//   case day = 'friday':
+//     console.log('friday day')
+//     break
+//   case day = 'sathurday':
+//     console.log('sathurday day')
+//     break
+//   case day = 'sunday':
+//     console.log('sunday day')
+//     break
+//   default:
+//     console.log('invalid input')
+// }
+
+var names = ["ali","ahmad","hamid","danish","jajja","jawad","ahmar"]
+console.log("names",names[3]);
+
+let nms = ["ali", "ahmad", "hamid", "danish", "jajja", "jawad", 'ahmar']
+console.log("nms : ", nms[0])

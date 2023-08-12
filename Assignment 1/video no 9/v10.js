@@ -1,12 +1,12 @@
 //
-var day = 'Mon'
+var day = 'wed'
 
 if (day == "sun") {
   console.log('day is sun')
 } else if (day == 'sat') {
-  console.log('day is sat')
+  console.log('day is saturday')
 } else if (day == 'fri') {
-  console.log('day is fri')
+  console.log('day is friday')
 } else if (day == 'thur') {
   console.log('day is thur')
 } else if (day == 'wed') {

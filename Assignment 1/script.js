@@ -33,5 +33,5 @@ console.log("it is not a number")
 }
 else
 {
-    console.log("it is a number")
+    console.log("it is a numbr")
 }
