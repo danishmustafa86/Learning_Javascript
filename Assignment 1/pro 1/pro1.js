@@ -101,5 +101,5 @@
 var names = ["ali","ahmad","hamid","danish","jajja","jawad","ahmar"]
 console.log("names",names[3]);
 
-let nms = ["ali", "ahmad", "hamid", "danish", "jajja", "jawad", 'ahmar']
+let nms = ["ali", "amad", "hamid", "danish", "jajja", "jawad", 'ahmar']
 console.log("nms : ", nms[0])
