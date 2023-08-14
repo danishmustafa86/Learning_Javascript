@@ -12,7 +12,7 @@ switch (day) {
   case "cool":  console.log("today is col");
     break;
   case "cloudy":
-    console.log(" today is cloud");
+    console.log(" today is clud");
     break;
   case "pleasant":
     console.log("today is plesant");
