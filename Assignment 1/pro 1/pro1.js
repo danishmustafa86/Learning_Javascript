@@ -98,7 +98,7 @@
 //     console.log('invalid input')
 // }
 
-var names = ["ali","ahmad","hamid","danish","jajja","jawad","ahmar"]
+var names = ["ali","ahad","hamid","danish","jajja","jawad","ahmar"]
 console.log("names",names[3]);
 
 let nms = ["ali", "amad", "haid", "danish", "jajja", "jawad", 'amaar']
