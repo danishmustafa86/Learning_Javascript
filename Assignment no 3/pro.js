@@ -13,6 +13,6 @@
 //1234567
 //12345678
 
-for(let num=1;num<=100;num++){
+for(let num=1;num<=50;num++){
     console.log(num)
 }
